@@ -1303,3 +1303,39 @@ img.extend {
         width: 100%;
     }
 }
+ul.bodybullet,ol.bodybullet{
+	list-style: disc !important;
+}
+
+p.chakra1, .chakra2, .chakra3, .chakra4, .chakra5, .chakra6, .chakra7{
+	text-decoration:underline; 
+	font-weight: bold;
+}
+
+p.chakra1 {
+	color:#ee1f25;
+}
+
+p.chakra2 {
+	color:#f57f22;
+}
+
+p.chakra3 {
+	color:#f3ec19;
+}
+
+p.chakra4 {
+	color:#69bd45;
+}
+
+p.chakra5 {
+	color:#3952a4;
+}
+
+p.chakra6 {
+	color:#4d2a7d;
+}
+
+p.chakra7 {
+	color:#7f469b;
+}

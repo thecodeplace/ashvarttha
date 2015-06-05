@@ -615,16 +615,19 @@ endif;
                         break;
                 endswitch;
                 ?>
-
+				<!-- Edited by Vanipriya -->
                 <figcaption>
                     <h3 class="fw_light color_dark"><?php print $title; ?></h3>
                     <ul class="dotted_list m_bottom_5 color_grey_light_2">
                         <li class="m_right_15 relative d_inline_m">
-                            <i class="fs_small color_grey">By <?php print str_replace('xml:lang=""', '', $name); ?></i>
+                            <i class="fs_small color_grey">By <?php print illusion_format_comma_field('field_writer', $node); ?></i>
                         </li>
                         <li class="m_right_15 relative d_inline_m category-style">
-                            <i><?php print illusion_format_comma_field('field_blog_category', $node); ?></i>
+                            <i><?php print illusion_format_comma_field('field_article_category', $node); ?></i>
                         </li>
+						<li class="m_right_15 relative d_inline_m category-style">
+                            <i><?php print illusion_format_comma_field('field_tags', $node); ?></i>
+                        </li>						
                         <li class="m_right_15 relative d_inline_m">
                             <a href="#" class="color_scheme_hover">
                                 <i class="icon-chat-empty m_right_2 color_grey_light_2 tr_all"></i><i class="fs_medium color_grey tr_all"><?php print $comment_count; ?></i>

